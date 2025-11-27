@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(reset.css);
+
+body {
+    margin: auto;
+    background: #FFF;
+}
+
+.line {
+    display: block;
+}
+
+button {
+    background: #01996D;
+    color: #FFF;
+    font-family: Lato;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    width: fit-content;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 3px 18px;
+}
+
+h1 {
+    font-family: Georgia;
+    color: #01996D;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+p {
+    font-family: Lato;
+    color: #484848;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Lato;
+    color: #484848;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a {
+    font-family: Lato;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+.part5 a {
+    color: #FFF;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+header svg {
+    width: 69px;
+    height: 20px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.signin {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.part1 {
+    display: flex; 
+    margin: auto;
+    justify-content: space-between;
+}
+
+.part1 img {
+    padding: 0;
+}
+
+.box-part1-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 120px auto;
+}
+
+.part2 {
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.box-0n {
+    position: relative;
+    display: inline-block;
+}
+
+.box-cards h2 {
+    font-size: 100px;
+    color: rgba(1, 153, 109, 0.20);
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 400;
+}
+
+.part2 h3 {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    font-family: Georgia;
+    font-weight: 700;
+    position: absolute;   
+    bottom: 20px; 
+    white-space: nowrap;  
+}
+
+.part2 img {
+    border-radius: 12px;
+}
+
+.part3 {
+    background-color: #245852;
+    padding: 40px 0;
+}
+
+.box-part3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+
+.part3 h1, .part3 p {
+    color: #FFF;
+}
+
+.part4 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 40px auto 0 auto;
+    gap: 40px;
+}
+
+.box-part4-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.part4 img {
+    border-radius: 18px;
+    margin: auto;
+}
+
+.cardCustomizedFor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    filter: drop-shadow(0 3.622px 18.112px rgba(165, 165, 165, 0.25));
+    padding: 8%;
+    transform: translateY(-70px);
+    max-width: 200px;
+}
+
+.cardCustomizedFor h2, .cardCustomizedFor ul {
+    font-family: Lato;
+    font-size: 9px;
+    padding: 0 !important;
+    margin: 0 !important;
+}   
+
+.cardCustomizedFor h3 {
+    font-size: 8px;
+}   
+
+.cardCustomizedFor h1 {
+    color: #000;
+    font-size: 11px;
+}
+
+.cardCustomizedFor img {
+    border-radius: 600px;
+    margin-bottom: 8px;
+}
+
+.cardCustomizedFor svg {
+    margin: 8px 0;
+}
+
+.part5 {
+    background-color: #245852;
+    padding: 40px 0;
+}
+
+.box-part5 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.part5 svg {
+    width: 69px;
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        margin: auto;
+        gap: 0;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    header svg {
+        width: auto;
+        height: 16px;
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: row;
+        width: fit-content;
+        gap: 10px;
+    }
+
+    .box-part1 {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .box-img {
+        display: flex; 
+        margin: auto;
+        align-items: center;
+    }
+
+    .part1 img {
+        border-radius: 16px;
+    }
+
+    .box-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .cardCustomizedFor {
+        max-width: 250px;
+    }
+
+    .cardCustomizedFor h2, .cardCustomizedFor ul {
+    font-size: 11px;
+}   
+
+    .cardCustomizedFor h3 {
+        font-size: 10px;
+    }   
+
+    .cardCustomizedFor h1 {
+        font-size: 13px;
+    }
+
+    .part5 nav {
+        flex-direction: column;
+    }
+
+    .part5 svg {
+        height: 16px;
+        width: 54px;
+    }
+}
+
+@media (min-width: 992px) {
+    header svg {
+        height: 22px;
+    }
+
+    .box-part2-txt {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    button {
+        font-size: 20px;
+        border-radius: 4px;
+        padding: 10px 40px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    header svg {
+        height: 22px;
+    }
+
+    .signin {
+        gap: 35px;
+    }
+
+    .box-cards h2 {
+        font-size: 150px;
+    }
+
+    .part2 h3 {
+        font-size: 30px; 
+    }
+
+    .box-part3 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .part4 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cardCustomizedFor {
+        max-width: 300px;
+    }
+
+    .cardCustomizedFor h2, .cardCustomizedFor ul {
+        font-size: 15px;
+    }   
+
+    .cardCustomizedFor h3 {
+        font-size: 12px;
+    }   
+
+    .cardCustomizedFor h1 {
+        font-size: 16px;
+    }
+
+    .box-part5, .part5 nav {
+        gap: 60px;
+    }
+
+    .part5 svg {
+        height: 22px;
+        width: 74.25px;
+    }
+}
